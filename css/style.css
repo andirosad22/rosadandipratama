@@ -306,6 +306,7 @@ h3.my-profession
   font-size: 20px;
   color: var(--text-black-700);
 }
+.home-infkoll
 .home .home-img
 {
   flex: 0 0 40%;
@@ -340,6 +341,40 @@ h3.my-profession
   margin: auto;
   border-radius: 5px;
   height: 400px;
+}
+.home .socialmedia
+{
+  max-width: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 50px;
+}
+.home .socialmedia .socialmedia-item
+{
+  font-size: 40px;
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all .4s ;
+}
+.home .socialmedia .socialmedia-item i
+{
+  color: #5f5f5f;
+}
+.home .socialmedia .socialmedia-item:hover
+{
+  background-color: var(--skin-color);
+  box-shadow: 0 0 10px rgba(33, 32, 54, 0.15);;
+  i
+  {
+    color: var(--bg-black-50);
+    font-size: 25px;
+  }
 }
 /* about */
 .about .about-content
