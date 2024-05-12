@@ -312,7 +312,7 @@ h3.my-profession
   flex: 0 0 40%;
   max-width: 60%;
   text-align: center;
-  position: relative
+  position: relative;
 }
 .home-img::after
 {
@@ -331,9 +331,9 @@ h3.my-profession
   position: absolute;
   border-top: 10px solid var(--skin-color);
   border-left: 10px solid var(--skin-color);
-  height: 80px;
+  height: 80px; 
   width: 80px;
-  left: -20px;
+  right: 380px;
   top: -40px;
 }
 .home .home-img img
